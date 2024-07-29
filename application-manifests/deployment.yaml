@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-app
+  name: spring-boot-k8s
   labels:
-    app: my-app
+    app: spring-boot-k8s
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: my-app
+      app: spring-boot-k8s
   template:
     metadata:
       labels:
-        app: my-app
+        app: spring-boot-k8s
     spec:
       containers:
-      - name: my-app
+      - name: spring-boot-k8s
         image: jasjeet1009/devops-automation:v1
         ports:
         - containerPort: 80
