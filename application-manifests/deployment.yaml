@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-k8s
-        image: jasjeet1009/devops-automation:v1
+        image: jasjeet1009/devops-automation:${BUILD_NUMBER}
         ports:
         - containerPort: 80
