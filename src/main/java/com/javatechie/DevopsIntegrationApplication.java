@@ -11,7 +11,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
-		return "welcome to javatechie";
+		return "Hi Welcome in DevOps Automation";
 	}
 
 	public static void main(String[] args) {
