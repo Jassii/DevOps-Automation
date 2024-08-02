@@ -1,8 +1,12 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include:
-          - "*"
-  server:
-    port: 8081
+# management:
+#   endpoints:
+#     web:
+#       exposure:
+#         include:
+#           - "*"
+#   server:
+#     port: 8081
+
+
+# logging:
+#   file: /mnt/c/Users/jasjeesingh/Desktop/HashedInAssignment/assignment4/elk/logs/elk-stack.log
