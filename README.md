@@ -24,7 +24,7 @@ Prerequisite:
 Links to be opened
 1) minikube start --force
 2) http://localhost:8080/ -> jenkins 
-3) http://localhost:9000/projects -> sonar make sure, sonaruqube container is up
-   Command to make it up :
-   docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 
-4) kubectl port-forward svc/argocd-server -n argocd 8082:443
+3) http://localhost:9000/projects -> sonar, make sure sonaruqube container is up
+     Command to make it up :
+     docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 
+5) kubectl port-forward svc/argocd-server -n argocd 8082:443
