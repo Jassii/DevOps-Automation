@@ -8,3 +8,9 @@ HandsOn Project regarding
  5) Updating the deployment file in the repo with the new image
  6) Deploying to kubernetes using ArgoCD
 
+Prerequisite:
+ 1) Minikube setup on local -> [https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download)
+ 2) 
+
+
+
