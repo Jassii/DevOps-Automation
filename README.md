@@ -1,12 +1,42 @@
+# DevOps-Automation Project
 
-# DevOps-Automation
-HandsOn Project regarding 
- 1) Checkout of the code
- 2) Code Analysis using SonarQube
- 3) Building and creating the image of application using docker
- 4) Pushing the image to the docker registry i.e. dockerhub
- 5) Updating the deployment file in the repo with the new image
- 6) Deploying to kubernetes using ArgoCD
+# Assignment is mentioned below
+
+## CI/CD Pipeline Development 
+## Objective: 
+
+Create a Continuous Integration/Continuous Deployment (CI/CD) pipeline using one of the specified tools (Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, GCP Cloud Build, or Azure Pipeline). The pipeline should automate the deployment of a containerized application to a Kubernetes cluster, ensuring that the application is accessible via a web browser. 
+
+# Pipeline Stages: 
+
+## Checkout Application Code: 
+Retrieve the latest code from the version control system (e.g., GitHub, GitLab, BitBucket). 
+## Code Analysis using SonarQube: 
+Analyze the code quality and security vulnerabilities using SonarQube. 
+(Optional) Fail the build if specified quality thresholds are not met.  
+
+## Build Docker Image: 
+Build a Docker image from the application code. 
+Tag the image appropriately. 
+
+## Push into Image Registry: 
+Push the built Docker image to a specified public or private container image registry (e.g., Docker Hub, AWS ECR, GCP Container Registry). 
+
+## Deploy into Kubernetes Cluster using ArgoCD: 
+Use ArgoCD to deploy the Docker image to a Kubernetes cluster. 
+The deployment should trigger automatically upon a new docker image tag being updated into deployment.yaml file. 
+
+## Kubernetes Exposition: 
+Configure Kubernetes services or an Ingress controller to expose the application. Ensure the application is accessible from the browser. 
+
+# Technical Specifications: 
+## Tools and Technologies: 
+Choose a CI/CD tool suitable for your infrastructure and familiarity. 
+Use Docker for containerization. 
+Kubernetes for orchestration. 
+ArgoCD for Kubernetes deployment synchronization. 
+SonarQube for code quality and security analysis.
+
 
 Prerequisite:
  1) Minikube setup on local -> [https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download)
